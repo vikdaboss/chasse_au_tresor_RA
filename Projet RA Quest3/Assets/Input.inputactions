@@ -1,0 +1,34 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "4605bf01-50f2-49a6-aaa1-92d1becd5674",
+            "actions": [
+                {
+                    "name": "Bind",
+                    "type": "Button",
+                    "id": "8722f835-8e08-4180-9ea5-dbebe7d38b47",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bd996bd1-f9a9-4ff5-9c57-2a96b9445747",
+                    "path": "<OculusTouchController>/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bind",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
