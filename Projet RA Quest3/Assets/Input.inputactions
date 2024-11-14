@@ -6,9 +6,18 @@
             "id": "4605bf01-50f2-49a6-aaa1-92d1becd5674",
             "actions": [
                 {
-                    "name": "Bind",
+                    "name": "Two",
                     "type": "Button",
                     "id": "8722f835-8e08-4180-9ea5-dbebe7d38b47",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "One",
+                    "type": "Button",
+                    "id": "5d1d375c-2d7b-4603-8381-a30565f3b181",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -23,7 +32,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Bind",
+                    "action": "Two",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c8512e2-862a-4042-87dc-686d0554603d",
+                    "path": "<OculusTouchController>/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "One",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
