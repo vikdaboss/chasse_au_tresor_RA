@@ -629,6 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8080690883491873411}
+  - component: {fileID: 365831525325531359}
   m_Layer: 0
   m_Name: test
   m_TagString: Untagged
@@ -644,7 +645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4208509700175650497}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00048436134, y: 0.44574803, z: -0.0003432348, w: 0.8951583}
+  m_LocalRotation: {x: 0.0004845035, y: 0.44574472, z: -0.0003387383, w: 0.8951599}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -669,7 +670,24 @@ Transform:
   - {fileID: 9008722858346316566}
   - {fileID: 488816577498893481}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.067, y: 52.942, z: -0.01}
+--- !u!114 &365831525325531359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208509700175650497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ed1a50ecbc2764fa460683388a24b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: {fileID: 0}
+  worldAnchorPositionOffset: {x: -0.26665682, y: -0.47000015, z: -0.6855013}
+  worldAnchorRotationOffset: {x: 27.842957, y: 36.80984, z: 19.050962}
+  ind: 2
+  anchorLoader: {fileID: 0}
 --- !u!1 &4906417259866654785
 GameObject:
   m_ObjectHideFlags: 0
