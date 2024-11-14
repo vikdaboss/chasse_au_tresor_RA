@@ -5,6 +5,7 @@ using UnityEngine.XR.OpenXR;
 using UnityEngine.XR.Interaction.Toolkit;
 using Meta.XR.MRUtilityKit.SceneDecorator;
 using System.Linq;
+using Meta.XR.BuildingBlocks;
 public class AdjustMove : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -14,8 +15,10 @@ public class AdjustMove : MonoBehaviour
     public Vector3 worldAnchorPositionOffset = Vector3.zero;
     public Vector3 worldAnchorRotationOffset = Vector3.zero;
     public int ind = 0;
+    public SpatialAnchorLoaderBuildingBlock anchorLoader; 
     void Start()
     {
+        anchorLoader.LoadAnchorsFromDefaultLocalStorage();
     }
     /*
     public void OnBind()
